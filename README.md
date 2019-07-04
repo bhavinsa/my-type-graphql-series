@@ -26,6 +26,16 @@ yarn
 ```
 yarn start
 ```
-To verified it worked, you can go to http://localhost:4000
 
-If you need any help setting this up feel free to message me on Discord: https://discord.gg/Vehs99V
+5. Convert ts file to js file 
+```
+yarn build
+```
+
+6. Convert ts file to js file 
+```
+cd dist
+node index.js
+```
+
+To verified it worked, you can go to http://localhost:4000
