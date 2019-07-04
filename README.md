@@ -32,7 +32,7 @@ yarn start
 yarn build
 ```
 
-6. Convert ts file to js file 
+6. Run js file 
 ```
 cd dist
 node index.js
