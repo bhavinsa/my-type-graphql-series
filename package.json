@@ -46,6 +46,7 @@
   "scripts": {
     "start": "ts-node-dev --respawn src/index.ts",
     "db:setup": "ts-node ./src/test-utils/setup.ts",
-    "test": "npm run db:setup && jest"
+    "test": "npm run db:setup && jest",
+    "build": "tsc -p ./tsconfig.json"
   }
 }
